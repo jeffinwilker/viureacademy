@@ -54,14 +54,49 @@
                 </div>
                 <div class="banner"   >
                         <img  src="images/home.jpg">
-                </div>    
-                <section class="caulas">      
-                    <div >
-                        <div>
-                            <p>Aulas exclusivas desenvolvidas para o seu cresimento, seja mechas, gestão, ou administração de cor.</p>
-                        </div>                
+                </div>     
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-sm-3"></div>
+                            <div class="col-sm-6 caulas">
+                                <h1 id="titulo">Aulas exclusivas desenvolvidas para o seu cresimento, seja mechas, gestão, ou administração de cor</h1>
+                            </div>
+                            <div class="col-sm-3"></div>
                     </div>
-                </section>
+
+                    <div class="container temas">                        
+                        <div class="row ">                                                    
+                                <div class="col-sm-4">
+                                    <img src="images/Colorimetria.png" alt="">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="images/salao.png" alt="">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="images/mechas.png" alt="">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <ul>
+                        <li class="btncas">
+                            <a class="cbtn btn btn-primary" href="">Cadastre-se gratuitamente</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h1 id="titulo">Assista quando quiser. 
+                                De qualquer dispositivo.</h1>
+                                <p>Baixe as aulas e assista offline no app. Assista no tablet, no computador, no celular ou em outros aparelhos, a qualquer hora, em qualquer lugar. Não existem mais desculpas para não começar agora.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img id="disp"src="images/dispositivos.png" alt="">
+                        </div>
+                    </div>
+                </div>
             @endsection
 
             
