@@ -1,14 +1,9 @@
-body{
-  background-color: antiquewhite;
+.menu{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
-.banner{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    z-index: -1;
-}
 
 #titulo {
     font-family: 'Open sans';
@@ -17,7 +12,7 @@ body{
     margin-top: 120px;
   }
   .titulo2{
-    width: 500px;
+    width: 470px;
   } 
 
   .cbtn {
@@ -25,11 +20,9 @@ body{
   }
 
   .caulas{
-    margin-top : 160px;
     display: flex;
     text-align: center;
   }
-
 
   .temas{
     width: 80%;
@@ -48,6 +41,14 @@ body{
     width: 97%;
   }
 
+  #homei{
+    width: 1170px;
+    margin-top: -23px;
+
+  }
+
   #disp{
   width: 940px;
-  }
+  };
+
+  

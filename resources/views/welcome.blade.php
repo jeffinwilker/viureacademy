@@ -41,7 +41,7 @@
             @endif                 
             </div>-->
             @section('content')
-                <div class="container" >
+            <!--    <div class="container" >
                         <div class="titulo2">
                             <h1 id="titulo">Aprenda com cabeleireiros de referência para ter um salão de sucesso. </h1>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
@@ -54,7 +54,24 @@
                 </div>
                 <div class="banner"   >
                         <img  src="images/home.jpg">
-                </div>     
+                </div>     -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 ">
+                            <div class="titulo2">
+                                <h1 id="titulo">Aprenda com cabeleireiros de referência para ter um salão de sucesso. </h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
+                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
+                                    galley of type and scrambled it to make a type specimen book. 
+                                </p>
+                                    <button  type="sumit" class="cbtn btn btn-primary "> {{ __('Cadastre-se gratuitamente') }} </button>
+                            </div>
+                        </div>
+                        <div  class="col-sm-4">
+                            <img id="homei" src="images/home1.png" alt="">
+                        </div>
+                    </div>
+                </div>
                     <div class="container">
                         <div class="row ">
                             <div class="col-sm-3"></div>
@@ -65,7 +82,7 @@
                     </div>
 
                     <div class="container temas">                        
-                        <div class="row ">                                                    
+                        <div class="row">                                                    
                                 <div class="col-sm-4">
                                     <img src="images/Colorimetria.png" alt="">
                                 </div>
@@ -93,7 +110,7 @@
                                 <p>Baixe as aulas e assista offline no app. Assista no tablet, no computador, no celular ou em outros aparelhos, a qualquer hora, em qualquer lugar. Não existem mais desculpas para não começar agora.</p>
                         </div>
                         <div class="col-sm-6">
-                            <img id="disp"src="images/dispositivos.png" alt="">
+                            <img id="disp" src="images/dispositivos.png" alt="">
                         </div>
                     </div>
                 </div>
