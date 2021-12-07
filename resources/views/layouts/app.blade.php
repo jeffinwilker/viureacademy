@@ -21,16 +21,28 @@
     <link href="{{ asset('css/home.css') }}" rel="stylesheet">
 </head>
 <body>
+    
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm menu">
             <div class="container">
                <!-- <a class="navbar-brand" href="{{ url('/') }}">
                 <a class="navbar-brand">               
                     {{ config('app.name', 'Viure Academy') }}
-                </a>-->
-                <a href="{{ url('/') }}">
-                    <img  src="images/Viure.png" >
-                </a>
+                </a>-->               
+                    @if (Route::has('login'))
+                        <div>
+                            @auth
+                                <a href="{{ url('/home') }}">                    
+                                    <img  src="images/Viure.png" >
+                                </a>    
+                                @else              
+                                <a href="{{ url('/') }}">                    
+                                    <img  src="images/Viure.png" >
+                                </a>
+                            @endauth
+                        </div>  
+                    @endif
+                    
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>

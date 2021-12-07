@@ -7,6 +7,8 @@
     }
 </style>
 
+
+
 @extends('layouts.app')
 <!--<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}"> -->
@@ -60,16 +62,14 @@
                         <div class="col-sm-4">
                             <div class="titulo2">
                                 <h1 id="titulo">Aprenda com cabeleireiros de referência para ter um salão de sucesso. </h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
-                                    galley of type and scrambled it to make a type specimen book. 
+                                <p>Tenha acesso gratuito a todas as lives da Viure Cosméticos em um só lugar.
                                 </p>
-                                    <button  type="sumit" class="cbtn btn btn-primary "> {{ __('Cadastre-se gratuitamente') }} </button>
+                                    <button href="" type="sumit" class="cbtn btn btn-primary "> {{ __('Cadastre-se gratuitamente') }} </button>
                             </div>
                         </div>
                         <div  class=" homeima col-sm-4 ">
                             <img class="homei" src="images/home1.png" alt="">
-                            <img class="homei2" src="images/home2.png" alt="">
+                            <img href="{{ route('register') }}" class="homei2" src="images/home2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                         <div id="titulodis"class="col-sm-6">
                             <h1 id="titulo2">Assista quando quiser. 
                                 De qualquer dispositivo.</h1>
-                                <p>Baixe as aulas e assista offline no app. Assista no tablet, no computador, no celular ou em outros aparelhos, a qualquer hora, em qualquer lugar. Não existem mais desculpas para não começar agora.</p>
+                                <p id="p" >Assista no computador, no celular, no tablet ou em outros aparelhos, a qualquer hora, em qualquer lugar. Não existem mais desculpas para não começar agora.</p>
                         </div>
                         <div class="col-sm-6">
                             <img id="disp" src="images/dispositivos.png" alt="">
