@@ -57,7 +57,7 @@
                 </div>     -->
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-4 ">
+                        <div class="col-sm-4">
                             <div class="titulo2">
                                 <h1 id="titulo">Aprenda com cabeleireiros de referência para ter um salão de sucesso. </h1>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
@@ -67,8 +67,9 @@
                                     <button  type="sumit" class="cbtn btn btn-primary "> {{ __('Cadastre-se gratuitamente') }} </button>
                             </div>
                         </div>
-                        <div  class="col-sm-4">
-                            <img id="homei" src="images/home1.png" alt="">
+                        <div  class=" homeima col-sm-4 ">
+                            <img class="homei" src="images/home1.png" alt="">
+                            <img class="homei2" src="images/home2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -96,16 +97,9 @@
                     </div>
                 </div>
                 <div class="container">
-                    <ul>
-                        <li class="btncas">
-                            <a class="cbtn btn btn-primary" href="">Cadastre-se gratuitamente</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
-                            <h1 id="titulo">Assista quando quiser. 
+                        <div id="titulodis"class="col-sm-6">
+                            <h1 id="titulo2">Assista quando quiser. 
                                 De qualquer dispositivo.</h1>
                                 <p>Baixe as aulas e assista offline no app. Assista no tablet, no computador, no celular ou em outros aparelhos, a qualquer hora, em qualquer lugar. Não existem mais desculpas para não começar agora.</p>
                         </div>

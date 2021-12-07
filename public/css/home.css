@@ -1,4 +1,4 @@
-.menu{
+....menu{
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -6,6 +6,13 @@
 
 
 #titulo {
+    font-family: 'Open sans';
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 120px;
+  }
+
+  #titulo2 {
     font-family: 'Open sans';
     font-size: 35px;
     font-weight: bold;
@@ -30,6 +37,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 90px;
   }
 
   .btncas{
@@ -41,14 +49,64 @@
     width: 97%;
   }
 
-  #homei{
+  .homei{
     width: 1170px;
     margin-top: -23px;
+    display: block;
 
   }
 
   #disp{
   width: 940px;
-  }teste
+  }
 
+  .homei2 {
+    float: right;
+    width: 100%;
+    display: none;
+  }
+
+@media (max-width:460px) {
+    .homei {
+      display: none;
+    }
+    .homei2 {
+      display: block;  
+      margin-top: -25px;
+      width: 100%;
+    }   
+    .homeima{
+      padding: 0%;
+    }
+    #titulo{
+      font-size: 18px;
+      padding: 20px;
+      margin-bottom: -50px;
+      margin-top: 15px;
+    }
+
+    .titulo2{
+     display: none;
+    }
+  .temas img{
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+  }
+   #titulo2{
+    font-family: 'Open sans';
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -50px;
+  }
+  #titulodis{
+    padding: 40px;
+  }
+  #disp{
+    width: 320px;
+  }
+  }
   
