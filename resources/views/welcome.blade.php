@@ -64,13 +64,15 @@
                                 <h1 id="titulo">Aprenda com cabeleireiros de referência para ter um salão de sucesso. </h1>
                                 <p>Tenha acesso gratuito a todas as lives da Viure Cosméticos em um só lugar.
                                 </p>
-                                    <button href="" type="sumit" class="cbtn btn btn-primary "> {{ __('Cadastre-se gratuitamente') }} </button>
+                                <form method="get" action="{{ route('register') }}">
+                                    <button href="" type="submit" class="cbtn btn btn-primary "> {{ __('Cadastre-se gratuitamente') }} </button>
+                                </form>
                             </div>
                         </div>
                         <div  class=" homeima col-sm-4 ">
                             <img class="homei" src="images/home1.png" alt="">
                             <img href="{{ route('register') }}" class="homei2" src="images/home2.png" alt="">
-                        </div>
+                        </div> 
                     </div>
                 </div>
                     <div class="container">
