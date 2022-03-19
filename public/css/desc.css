@@ -1,0 +1,15 @@
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 400px) {
+    .desc {
+      display: flex;
+      flex-direction: row;
+    }
+  }
